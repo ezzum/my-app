@@ -1,0 +1,17 @@
+query relations {
+  relations: applicantIndividualCompanyRelations {
+    data {
+      id
+      name
+    }
+  }
+}
+
+query positions {
+  positions: applicantIndividualCompanyPositions {
+    data {
+      id
+      name
+    }
+  }
+}
